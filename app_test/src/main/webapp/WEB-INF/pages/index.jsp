@@ -12,10 +12,10 @@
           <h1>Lista departamentos</h1>
           <table border="1">
               <tr>
-                <th>No</th>
-                <th>Dept No</th>
-                <th>Dept Name</th>
-                <th>Location</th>
+                <th>Id</th>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Localización</th>
               </tr>
               <c:forEach var="dept" items="${departments}" varStatus="status">
               <tr>
