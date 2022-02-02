@@ -16,6 +16,7 @@
                 <th>Código</th>
                 <th>Nombre</th>
                 <th>Localización</th>
+                <th>Acciones</th>
               </tr>
               <c:forEach var="dept" items="${departments}" varStatus="status">
               <tr>
