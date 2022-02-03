@@ -19,6 +19,7 @@ public class DepartmentController {
 
     @RequestMapping(value = { "/" }, method = RequestMethod.GET)
     public String welcomePage(Model model) {
+    	
         List<Department> list = departmentDAO.listDepartment();
         model.addAttribute("departments", list);
         return "index";
